@@ -54,11 +54,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [2] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      CTL_TAB,   CTL_Q,   CTL_W,   CTL_E,   CTL_R,   CTL_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  KC_DEL, XXXXXXX,
+      RCT_TAB,   RCT_Q,   RCT_W,   RCT_E,   RCT_R,   RCT_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  KC_DEL, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,   CTL_A,   CTL_S,   CTL_D,   CTL_F,   CTL_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, XXXXXXX, XXXXXXX,
+      KC_LCTL,   RCT_A,   RCT_S,   RCT_D,   RCT_F,   RCT_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, XXXXXXX, XXXXXXX,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LSFT,   CTL_Z,   CTL_X,   CTL_C,   CTL_V,   CTL_B,                      KC_BSPC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
+      KC_LSFT,   RCT_Z,   RCT_X,   RCT_C,   RCT_V,   RCT_B,                      KC_BSPC, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LALT,   MO(3),  KC_ENT,     KC_ENT, _______, KC_RGUI
                                       //`--------------------------'  `--------------------------'
