@@ -63,7 +63,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [2] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      RCT_TAB,   RCT_Q,   RCT_W,   RCT_E,   RCT_R,   RCT_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  JP_GRV, KC_BSPC,
+      RCT_TAB,   RCT_Q,   RCT_W,   RCT_E,   RCT_R,   RCT_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  JP_GRV,  KC_DEL,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,   RCT_A,   RCT_S,   RCT_D,   RCT_F,   RCT_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, JP_PIPE, JP_TILD,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
