@@ -39,3 +39,6 @@
 #define RCT_COMM RCTL(KC_COMM)
 #define RCT_DOT RCTL(KC_DOT)
 #define RCT_SLSH RCTL(KC_SLSH)
+
+#define RCT_SP RCTL(KC_SPC)
+#define RCT_ENT RCTL(KC_ENT)
