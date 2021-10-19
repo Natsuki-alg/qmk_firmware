@@ -51,9 +51,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [1] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-       KC_ESC, JP_EXLM, JP_DQUO, JP_HASH,  JP_DLR, JP_PERC,                      JP_AMPR, JP_QUOT, JP_LPRN, JP_RPRN,   JP_AT, JP_CIRC,
+       KC_ESC, JP_EXLM, JP_DQUO, JP_HASH,  JP_DLR, JP_PERC,                      JP_AMPR, JP_QUOT, JP_LPRN, JP_RPRN,   JP_AT, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,    JP_1,    JP_2,    JP_3,    JP_4,    JP_5,                         JP_6,    JP_7,    JP_8,    JP_9,    JP_0, JP_PIPE,
+      KC_LCTL,    JP_1,    JP_2,    JP_3,    JP_4,    JP_5,                         JP_6,    JP_7,    JP_8,    JP_9,    JP_0, JP_CIRC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,    JP_0,    JP_9,    JP_8,    JP_7,    JP_6,                      JP_UNDS, JP_LCBR, JP_LBRC, JP_RBRC, JP_RCBR,RSFT_BSL,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
@@ -63,9 +63,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [2] = LAYOUT_split_3x6_3(
   //,-----------------------------------------------------.                    ,-----------------------------------------------------.
-      RCT_TAB,   RCT_Q,   RCT_W,   RCT_E,   RCT_R,   RCT_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  JP_GRV, JP_TILD,
+      RCT_TAB,   RCT_Q,   RCT_W,   RCT_E,   RCT_R,   RCT_T,                      KC_HOME, KC_PGDN, KC_PGUP,  KC_END,  JP_GRV, KC_BSPC,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-      KC_LCTL,   RCT_A,   RCT_S,   RCT_D,   RCT_F,   RCT_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, KC_BSPC,  KC_DEL,
+      KC_LCTL,   RCT_A,   RCT_S,   RCT_D,   RCT_F,   RCT_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, JP_PIPE, JP_TILD,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LSFT,   RCT_Z,   RCT_X,   RCT_C,   RCT_V,   RCT_B,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
