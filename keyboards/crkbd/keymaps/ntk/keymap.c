@@ -29,6 +29,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define RSFT_BSL RSFT_T(JP_BSLS)
 
+<<<<<<< HEAD
+=======
+#define I_COPY RCTL(KC_INSERT)
+#define I_PASTE RSFT(KC_INSERT)
+
+>>>>>>> 19b727a1afe2ffee8248b248f0dc593df9f04433
 #define REISE MO(1)
 #define LOWER MO(2)
 
@@ -67,7 +73,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
       KC_LCTL,   RCT_A,   RCT_S,   RCT_D,   RCT_F,   RCT_G,                      KC_LEFT, KC_DOWN,   KC_UP,KC_RIGHT, JP_PIPE, JP_TILD,
   //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
+<<<<<<< HEAD
       KC_LSFT,   RCT_Z,   RCT_X,   RCT_C,   RCT_V,   RCT_B,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
+=======
+      KC_LSFT,   RCT_Z,   RCT_X,  I_COPY, I_PASTE,   RCT_B,                      XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_RSFT,
+>>>>>>> 19b727a1afe2ffee8248b248f0dc593df9f04433
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                           KC_LALT,   MO(4),  RCT_SP,     KC_ENT, _______, KC_RGUI
                                       //`--------------------------'  `--------------------------'
