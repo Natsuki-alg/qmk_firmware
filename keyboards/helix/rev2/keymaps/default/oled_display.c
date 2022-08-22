@@ -28,10 +28,10 @@
 // entirely and just use numbers.
 enum layer_number {
     _QWERTY = 0,
-    _COLEMAK,
-    _DVORAK,
     _LOWER,
     _RAISE,
+    _LOW_E,
+    _RAI_E,
     _ADJUST
 };
 

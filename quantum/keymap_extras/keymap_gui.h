@@ -5,7 +5,7 @@
 #define RG_UP RGUI(KC_UP)
 #define RG_DN RGUI(KC_DOWN)
 #define RG_LT RGUI(KC_LEFT)
-#define RG_RT RGUI(KC_RIGHT)
+#define RG_RT RGUI(KC_RGHT)
 
 #define RG_D RGUI(KC_D)
 #define RG_E RGUI(KC_E)
