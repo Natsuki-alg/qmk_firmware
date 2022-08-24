@@ -79,9 +79,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_RAISE] = LAYOUT_split_3x6_3(
 // ,--------+--------+--------+--------+--------+--------.                    ,--------+--------+--------+--------+--------+--------.
-    CT_TAB,  CT_Q,    CT_W,    CT_E,    CT_R,    CT_T,                         KC_HOME, KC_PGDN, KC_PGUP, KC_END,  XXXXXXX, KC_DEL,
+    CT_TAB,  CT_Q,    CT_W,    CT_E,    CT_R,    CT_T,                         KC_HOME, KC_PGDN, KC_PGUP, KC_END,  CT_BSP,  CT_DEL,
 // |--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-    KC_LCTL, CT_A,    CT_S,    CT_D,    CT_F,    CT_G,                         KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, XXXXXXX, KC_BSPC,
+    KC_LCTL, CT_A,    CT_S,    CT_D,    CT_F,    CT_G,                         KC_LEFT, KC_DOWN, KC_UP,   KC_RGHT, KC_BSPC, KC_DEL,
 // |--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
     KC_LSFT, CT_Z,    CT_X,    I_COPY,  I_PASTE, CT_B,                         RG_LT,   RG_DN,   RG_UP,   RG_RT,   XXXXXXX, KC_RSFT,
 // `--------+--------+--------+--------+--------+--------+--------.  ,--------+--------+--------+--------+--------+--------+--------'
